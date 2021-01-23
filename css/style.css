@@ -1,0 +1,61 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #E2E7EC;
+    padding: 30px 0;
+}
+
+.bigImage {
+    background-image: url(../images/redCarr.jpg);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: 50% 50%;
+    padding: 380px 0 0 63px;
+    margin: 0 0 30px 0;
+}
+
+.bigImage .dateStyle {
+    color: #fff;
+    opacity: 0.5;
+}
+
+.infoBlock {
+    background-color: #fff;
+    padding: 22px 70px 22px 22px;
+    text-transform: uppercase;
+    position: relative;
+    height: 288px;
+    font-size: 20px;
+}
+
+.dateStyle {
+    color: #818181;
+    margin: 0 0 11px 0;
+    font-size: 13px;
+}
+
+.photoStyle {
+    width: 100%;
+}
+
+.avatarStyle {
+    position: absolute;
+    bottom: 22px;
+    left: 22px;
+}
+
+.empty {
+    color: white;
+}
+
+.titleStyle {
+    color: #fff;
+    font-size: 30px;
+    width: 409px;
+}   
+
+.item  {
+    margin: 0 0 30px 0;
+}
